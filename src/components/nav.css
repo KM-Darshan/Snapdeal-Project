@@ -1,0 +1,145 @@
+.navbar {
+  display: flex;           /* Puts items in one line */
+  align-items: center;     /* Vertically centers them */
+  justify-content: space-between; /* Space between logo and form */
+  padding: 10px;
+  background-color: RGB(227, 0, 71); 
+}
+.navitems img {
+  display: block;
+  
+
+}
+.navitems{
+    display: flex;
+    align-items: center;
+    /* gap:5px; */
+    color: white;
+}
+
+form {
+  display: flex;           /* Keep input & button in one line */
+  align-items: center;
+  gap:1px;                /* Space between input and button */
+}
+
+input {
+      width: 600px;   
+  padding: 6px;
+  font-size: 24px;
+   cursor: pointer;
+}
+.btn {
+  padding: 6px 12px;
+ 
+  background-color: black;
+  color: azure;
+    font-size: 22px;
+    width: 100px;
+}
+
+
+
+.cart{
+    display: flex;
+     font-size: 14px;
+  margin-right: 20px;
+
+   align-items: center;
+ 
+    cursor: pointer;
+}
+.btncart {
+    width: 100px;
+  display: flex;
+  align-items: center;
+  gap: 5px;   /* space between text and cart icon */
+  background-color:RGB(227, 0, 71);  
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+
+/* 
+.btncart {
+     font-weight: 500; 
+  display: flex;
+  align-items: center;
+  gap: 5px;
+      background-color:RGB(227, 0, 71); 
+      color: white;
+    border: none;
+  cursor: pointer;
+   font-size: 24px;
+} */
+
+
+
+/* .signin {
+  color: white;
+  cursor: pointer;
+  display: flex;
+  margin-left: 50px;
+  font-size: 24px;
+   font-weight: 500; 
+} */
+
+.signin {
+  display: flex;
+  align-items: center;
+  gap: 5px;   /* space between Sign In text & user icon */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+    font-weight: 600;
+    width: 100px;
+  
+}
+.icon{
+    background-color: RGB(227, 0, 71); 
+    border-radius: 50%;  
+    background-size: 60%;          
+}
+
+.topstring{
+    background-color: RGB(227, 0, 71); 
+   
+
+}
+.headings li a {
+  color: white;       /* make link text white */
+  text-decoration: none; /* remove underline */
+  font-weight: 500;   /* optional: make it look cleaner */
+}
+.headings {
+    display: flex;
+    margin-top: 0;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+
+.heading {
+    list-style: none;
+    margin-left: 45px;
+    color: white;
+    cursor: pointer;
+    float: right;
+  
+    
+}
+
+.tagline{
+    float: left; 
+      font-size: 22px;             
+      margin-left: 20px;        /* some spacing from left */
+
+  color:white/* light gray like Snapdeal */
+
+}
+
