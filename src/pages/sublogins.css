@@ -1,0 +1,79 @@
+.items {
+  width: 420px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.items input[type="text"],
+.items input[type="name"],
+.items input[type="email"],
+.items input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.items input:focus {
+  border-color: #e40046; /* Snapdeal red */
+}
+
+
+/* .cheackbox {
+  display: inline-block;
+  align-items: center;
+  gap: 8px; /* space between checkbox and text */
+/* }
+.cheackbox input {
+  margin: 0;
+   cursor: pointer;
+} */
+/* .cheackbox span {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer; /* makes text clickable */
+/* }  */
+.cheackbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cheackbox input {
+  margin: 0;
+  cursor: pointer;
+}
+
+.cheackbox label {
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+/* Continue button */
+.btcontinue button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e40046;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btcontinue button:hover {
+  background-color: #c2003c;
+}

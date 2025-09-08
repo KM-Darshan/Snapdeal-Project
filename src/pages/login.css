@@ -1,0 +1,66 @@
+/* Only affect elements inside .loginclass */
+.loginclass {
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading inside login */
+.loginclass h3 {
+  text-align: center;
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.loginclass p {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Form only inside login */
+.loginclass form {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+}
+
+/* Input inside login */
+.loginclass .mobile input {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.loginclass .mobile input:focus {
+  border-color: #e40046;  /* Snapdeal red */
+}
+
+/* Continue button only in login */
+.loginclass .btcontinue button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e40046; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.loginclass .btcontinue button:hover {
+  background-color: #c2003c;
+}
+

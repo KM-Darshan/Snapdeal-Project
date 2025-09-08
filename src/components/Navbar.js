@@ -1,13 +1,19 @@
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+// import Sigin from "../pages/signin";
+
 import "./nav.css" 
 
 let Nav=()=>{
+
+const navigate =useNavigate()
     return(
 
  <div>
 
   <nav className="nameBrand"> 
+
+  
 
        <div className="topstring">
         <span className="tagline">india's leading online shopping  destination</span>   
@@ -39,9 +45,10 @@ let Nav=()=>{
             </div>
 
             <div className="signin">
-                <span>Sign In</span>
-                <div className="icon">  
+                <span on onClick={()=>navigate("/login")}>Sign In</span>
+                <div className="icon" onClick={()=>navigate("/login")}>  
               <img src="https://cdn4.vectorstock.com/i/1000x1000/97/03/user-sign-white-icon-vector-15479703.jpg" alt="user" width="22"/>
+                
                 </div>
             </div> 
                </div>

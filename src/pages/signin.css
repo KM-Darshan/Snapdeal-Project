@@ -1,0 +1,71 @@
+/* Full page background */
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the box */
+.sigin {
+  width: 400px;
+  margin: 100px auto;             /* centers horizontally */
+  background: #fff;
+  border-radius: 6px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.sigin h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Small description */
+.sigin p {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/* Input field */
+.mobile input {
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.mobile input:focus {
+  border: 1px solid #e40046; /* Snapdeal red */
+}
+
+/* Continue button */
+.btncontinue {
+  margin-top: 20px;
+}
+
+.btncontinue button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e40046;  /* Snapdeal red */
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btncontinue button:hover {
+  background-color: #c2003c;  /* darker red */
+}
+
