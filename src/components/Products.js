@@ -53,6 +53,40 @@ let Products = () => {
           <p>₹799</p>
           <button>Add to Cart</button>
         </div>
+        
+        <div className="product-card">
+          <img
+            src="http://www.pngall.com/wp-content/uploads/5/Cotton-Pant-PNG-File-Download-Free.png"
+            alt="pants"
+          />
+          <h4>Paint</h4>
+          <p>₹899</p>
+          <button>Add to Cart</button>
+        </div>
+
+          <div className="product-card">
+          <img
+            src="https://tse2.mm.bing.net/th/id/OIP.UjbccTzKf0Z9fXfZFFi9SgHaHa?pid=Api&P=0&h=180"
+            alt="shorts"
+          />
+          <h4>shorts</h4>
+          <p>₹499</p>
+          <button>Add to Cart</button>
+        </div>
+{/* 
+            <div className="product-card">
+          <img
+            src="https://tse2.mm.bing.net/th/id/OIP.lchNKCBQhl9VkmZ2-badjwHaJr?pid=Api&P=0&h=180"
+            alt="shirt"
+          />
+          <h4>shirt</h4>
+          <p>₹699</p>
+          <button>Add to Cart</button>
+        </div> */}
+        
+        
+
+
       </div>
     </div>
   );

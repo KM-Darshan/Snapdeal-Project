@@ -11,6 +11,8 @@ import Product from './components/Products';
 import Nav from"./components/Navbar"
 import Login from './pages/Login';
 import Sublogin from './pages/Sublogin';
+import AdsSection from './components/Ads';
+import Footer from './components/Fotter';
 
 // import Sigin from './pages/Signins';
 // import Login from './pages/Login';
@@ -32,6 +34,9 @@ function App() {
        <Carousel/>
       </div>
     <Product/> 
+    <AdsSection/>
+   <Footer/>
+
     
     </>
   } />

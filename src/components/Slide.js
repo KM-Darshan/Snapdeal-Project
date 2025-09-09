@@ -11,7 +11,10 @@ let Side=()=>{
         <aside className="sidebar"> 
             <h3> top categories </h3>
             <ul>
-              <li> Men's Fashion</li>
+              <li> 
+                
+                Men's Fashion
+                </li>
               <li> Women's Fashion</li>
               <li> Home & kitchen</li>
               <li> Beauty & Health</li>

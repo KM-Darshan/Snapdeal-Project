@@ -15,7 +15,7 @@ let Sigin=()=>{
     }
     return(<>
         <div className="sigin">
-            <form>
+            
 
        
         <h3> Login /Sign up on Snapdeal</h3>
@@ -26,7 +26,7 @@ let Sigin=()=>{
         <div className="btncontinue">
             <button  type="button" onClick={handlecont}>continue</button>
         </div>
-             </form>
+             
         </div>
     </>)
 }
