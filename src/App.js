@@ -7,7 +7,7 @@ import Downloadapp from './pages/Downloadapp';
 import Helpcenter from './pages/Helpcenter';
 import Side from './components/Slide';
 import Carousel from './components/Carousell';
-import Product from './components/Products';
+import Products from './components/Products';
 import Nav from"./components/Navbar"
 import Login from './pages/Login';
 import Sublogin from './pages/Sublogin';
@@ -33,11 +33,10 @@ function App() {
       
        <Carousel/>
       </div>
-    <Product/> 
+      
+   < Products/>
     <AdsSection/>
    <Footer/>
-
-    
     </>
   } />
       <Route path='/our' element={<Ourblog/>}/>

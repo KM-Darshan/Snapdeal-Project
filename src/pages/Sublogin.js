@@ -29,7 +29,7 @@ let Sublogin=()=>{
             </div>
             <div className="cheackbox">
                 <input type="checkbox" />
-                 <label htmlFor="keepLogged"> keep me logged in</label>
+                 <label> keep me logged in</label>
             </div>
 
           <div className="btcontinue">

@@ -24,9 +24,9 @@ form {
 }
 
 input {
-      width: 600px;   
-  padding: 6px;
-  font-size: 24px;
+      width: 500px;   
+  padding: 3px;
+  font-size: 18px;
    cursor: pointer;
 }
 .btn {
@@ -34,7 +34,7 @@ input {
  
   background-color: black;
   color: azure;
-    font-size: 22px;
+    font-size: 18px;
     width: 100px;
 }
 
@@ -136,7 +136,7 @@ input {
 
 .tagline{
     float: left; 
-      font-size: 22px;             
+      font-size: 15px;             
       margin-left: 20px;        /* some spacing from left */
 
   color:white/* light gray like Snapdeal */
