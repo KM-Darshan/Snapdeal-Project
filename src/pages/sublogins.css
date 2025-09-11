@@ -43,6 +43,9 @@
   color: #555;
   cursor: pointer; /* makes text clickable */
 /* }  */
+
+
+/* 
 .cheackbox {
   display: flex;
   align-items: center;
@@ -58,7 +61,12 @@
   font-size: 14px;
   color: #555;
   cursor: pointer;
-}
+} */
+
+
+
+
+
 
 /* Continue button */
 .btcontinue button {
@@ -76,4 +84,24 @@
 
 .btcontinue button:hover {
   background-color: #c2003c;
+}
+.cheackbox {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* centers checkbox and label vertically */
+  gap: 6px;            /* space between checkbox and label */
+  margin-top: 10px;
+  width: 100%;         /* make it stretch full column */
+}
+
+.cheackbox input[type="checkbox"] {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.cheackbox label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
 }

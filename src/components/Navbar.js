@@ -29,7 +29,7 @@ const navigate =useNavigate()
 
             <div className="navitems"> 
 
-          <img src="https://logodix.com/logo/1241165.png" alt="logo" width="100" height="30"/>
+          <img src="https://logodix.com/logo/1241165.png" alt="logo" width="100" />
                  <h3>Snapdeal</h3>
         </div> 
 

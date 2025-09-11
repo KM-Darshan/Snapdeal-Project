@@ -1,13 +1,16 @@
 .navbar {
-  display: flex;           /* Puts items in one line */
-  align-items: center;     /* Vertically centers them */
-  justify-content: space-between; /* Space between logo and form */
+  display: flex;           
+  align-items: center;     
+  justify-content: space-between; 
   padding: 10px;
   background-color: RGB(227, 0, 71); 
+ 
+
 }
 .navitems img {
   display: block;
-  
+  height: 32px;
+  margin-left: 10px;   /* small padding from left */
 
 }
 .navitems{
@@ -32,7 +35,7 @@ input {
 .btn {
   padding: 6px 12px;
  
-  background-color: black;
+  background-color: black ;
   color: azure;
     font-size: 18px;
     width: 100px;
