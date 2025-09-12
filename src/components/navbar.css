@@ -1,0 +1,210 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+navbar-container
+nav.navbar-container {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color:  rgb(228, 0, 70);   /* main navbar bg */
+  border-bottom: 2px solid #e40046; /* Snapdeal red underline */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Adjust image size */
+.logo img {
+  max-height: 48px;  /* medium height that works well in navbar */
+  width: auto;
+}
+
+/* If you have a logo and text together (like “Snapdeal” text beside img) */
+.logo h3 {
+  margin-left: 8px;
+  font-size: 20px;
+  color: white;  /* Snapdeal red */
+  font-weight: bold;
+}
+
+
+/* ====== Top Tagline Bar ====== */
+.top-bar {
+  background-color:  rgb(228, 0, 70);/*  #f1f3f6 Snapdeal light grey */
+  color: #333;
+  font-size: 13px;
+  padding: 6px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.top-bar .tagline {
+  /* font-weight: 500; */
+  font-size: 14px;
+}
+
+.top-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.top-links li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s ease;
+  font-size: 13px;
+}
+
+.top-links li a:hover {
+  color: #e40046; /* Snapdeal red */
+  text-decoration: underline;
+}
+
+/* ====== Main Navbar ====== */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color:  rgb(228, 0, 70);
+
+}
+span{
+    color: white;
+    font-size: 22px;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+
+
+/* ====== Search Bar ====== */
+/* .search-bar {
+  flex: 1;
+  display: flex;
+  margin: 0 30px; */
+
+.search-bar {
+  display: flex;
+  margin: 0 30px;
+  max-width: 500px;  /* Medium size box */
+  width: 100%;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-bar input:focus {
+  border-color: #e40046;
+}
+
+.search-bar button {
+  background-color:black;
+  color:white ;
+  border: 1px solid #e40046;
+  border-radius: 0 4px 4px 0;
+  padding: 10px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  /* transition: background 0.2s ease; */
+}
+
+.search-bar button:hover {
+  background-color: black;
+}
+
+/* ====== Cart & Signin ====== */
+.cart, .signin {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 12px;   /* slightly larger, more readable */
+}
+
+.btn-cart {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;   /* normal weight */
+  color: #333;        /* softer dark grey instead of black */
+}
+
+.btn-cart img {
+  width: 20px;
+  height: auto;
+}
+
+.signin {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;   /* normal instead of bold */
+  color: #333;        /* same soft grey */
+  margin-left: 20px;
+}
+
+.signin img {
+  width: 18px;
+  height: auto;
+}
+
+
+/* ====== Responsiveness ====== */
+@media (max-width: 992px) {
+  .top-bar {
+    font-size: 12px;
+  }
+  .top-links {
+    gap: 10px;
+  }
+  .search-bar {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    display: none; /* hide tagline row on mobile */
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .search-bar {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .cart, .signin {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+}
+
